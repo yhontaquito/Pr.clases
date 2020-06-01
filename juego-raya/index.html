@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>juego-3-raya</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body >
+	<header>
+		<nav>
+			
+		</nav>
+	</header>
+	<section>
+		<article>
+			<h1>Juego 3 Raya</h1>
+			<div id="tiempo"><p>Contador:</p>
+				<p id="Contador"><span id="minutos">00</span>:
+				<span id="segundos">00</span></p>
+			</div>
+			<div id="tablero">
+				<div></div>
+				<div class="row">
+					<div id="c00" onclick="RevisarCelda(0,0)" class="celda white"></div>
+					<div id="c01" onclick="RevisarCelda(0,1)" class="celda white"></div>
+					<div id="c02" onclick="RevisarCelda(0,2)" class="celda white"></div>
+				</div><!--row-->
+				<div class="row">
+					<div id="c10" onclick="RevisarCelda(1,0)" class="celda white"></div>
+					<div id="c11" onclick="RevisarCelda(1,1)" class="celda white"></div>
+					<div id="c12" onclick="RevisarCelda(1,2)" class="celda white"></div>
+				</div><!--row-->
+				<div class="row">
+					<div id="c20" onclick="RevisarCelda(2,0)" class="celda white"></div>
+					<div id="c21" onclick="RevisarCelda(2,1)" class="celda white"></div>
+					<div id="c22" onclick="RevisarCelda(2,2)" class="celda white"></div>
+				</div><!--row-->
+			</div><!--tablero-->
+		</article>
+	</section>
+	<aside>
+
+	</aside>
+	<footer>
+		
+	</footer>
+	<script src="game.js"></script>
+	<script src="tabla.js"></script>
+	<script src="cronometro.js"></script>
+	<script src="javaScript.js"></script>
+</body>
+</html>
